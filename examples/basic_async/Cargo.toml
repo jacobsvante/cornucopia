@@ -2,10 +2,11 @@
 edition = "2021"
 name = "basic-async"
 version = "0.1.0"
+publish = false
 
 [dependencies]
 # Cornucopia async client
-## If you're trying this example as a standalone crate, 
+## If you're trying this example as a standalone crate,
 ## replace the path with the latest current version
 cornucopia_async = { path = "../../crates/client_async" }
 
